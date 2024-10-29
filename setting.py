@@ -66,11 +66,11 @@ Companies = {
 
 #创建connection对象
 connection = pymysql.connect(
-    host="127.0.0.1",
-    user="root",
-    password="Srits0ft",
-    db="industry",
-    charset="utf8mb4",
+    host='',
+    user="",
+    password="",
+    db="",
+    charset="",
     cursorclass=pymysql.cursors.DictCursor
 )
 
